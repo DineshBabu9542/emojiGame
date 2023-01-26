@@ -1,0 +1,68 @@
+/* Write your code here. */
+
+.emoji-img-with-name-con {
+  display: flex;
+  margin-left: 16px;
+  margin-top: 6px;
+}
+.nav-container {
+  background-color: #ffffff33;
+  padding: 16px;
+  justify-content: center;
+}
+
+.emoji-logo {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-img-with-name-con {
+    display: flex;
+    margin-left: 20%;
+  }
+}
+.emoji-heading {
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.top-score-name {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.scores-container {
+  display: flex;
+}
+
+.score-name {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-con {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .emoji-heading {
+    font-size: 18px;
+  }
+  .emoji-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
